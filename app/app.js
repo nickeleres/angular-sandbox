@@ -53,6 +53,11 @@
         controller: 'MainController',
         controllerAs: 'main'
       })
+      .when('/users', {
+        templateUrl: 'views/users.html',
+        controller: 'UsersController',
+        controllerAs: 'users'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -1,0 +1,18 @@
+<!--users view-->
+<div class="content">
+    <h2>Welcome to Boilerplate</h2>
+    <hr>
+    <h4>These are our Users</h4>
+    <b>Users</b>
+    <div ng-repeat="user in records">
+        {{user.name}}
+    </div>
+    <hr>
+    <h4>Click Below to Type</h4>
+    <input ng-model="searchText" type="text">
+    <div>
+        <span>
+            You are typing {{searchText}}
+        </span>
+    </div>
+</div>
